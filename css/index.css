@@ -1,0 +1,209 @@
+/* 文字滚动盒子 */
+i {
+    display: inline-block;
+}
+#haa { 
+    position: absolute;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: '微软雅黑';
+}
+/* 图片飞入盒子 */
+#ig {
+    position: absolute;
+    right: -470px;
+}
+.hmain {
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    padding: 0 80px;
+}
+.hmain-l {
+    margin-top: 110px;
+}
+.hleft h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    /* font-family: '微软雅黑'; */
+}
+.hleft img {
+    margin-top: 80px;
+    width: 300px;
+}
+.hleft .bto {
+    width: 122px;
+    height: 40px;
+    background-color: black;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 13px;
+}
+.hhide {
+    display: none;
+}
+.hshow {
+    display: block;
+}
+#er img {
+    position: absolute;
+    top: 15px;
+    width: 120px;
+    left:0px;
+}
+#err img {
+    position: absolute;
+    top: 15px;
+    width: 120px;
+    left:130px;
+}
+.hsubnav {
+    width: 100%;
+    height: 540px;
+    background-color: #FF2741;
+    padding: 0 80px;
+    color: #fff;
+    font-size: 18px;
+}
+.hsubnav-l {
+    padding: 20px 0;
+}
+.hsubnav-l li {
+    padding-top: 40px;
+}
+.hhead {
+    display: inline-block;
+}
+.hhead span {
+    display: block;
+}
+.hplan {
+    position: relative;
+    height: 3px;
+    width: 100px;
+    border: 1px solid #fbfbfb;
+    border-radius: 15px;
+}
+.htime {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    background: pink;
+    border-radius: 15px;
+}
+.hsubnav-r{
+    position: relative;
+    margin-top: -70px;
+    margin-right: 140px;
+    width: 300px;
+    height: 595px;
+    background: url(../img/phone.png) no-repeat;
+    background-size: contain; 
+    overflow: hidden;
+}
+.hsubnav-r ul {
+    position: absolute;
+    top: 0px;
+}
+.hsubnav-r ul li {
+    width: 260px;
+    height: 564px;
+    margin: 18px 20px;
+}
+.hsubnav-r ul li img {
+    width: 100%;
+    height: 100%;
+}
+.hmore {
+    width: 100%;
+    height: 660px;
+    background-color: #fbfbfb;
+}
+.hmore-t {
+    margin: 30px 0 0 40px;
+}
+.hone {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.happ { 
+    display: block;
+    width: 120px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.hmore-b {
+    margin:40px;
+}
+.hmore-b li {
+    position: relative;
+    float: left;
+    margin-left: 25px;
+}
+.hmore-b img{
+    width: 220px;
+    height: 177.5px;
+    border-radius: 16px;
+}
+.hmore-b h5 {
+    font-size: 24px;
+    margin: 13px 0 ;
+    font-weight: 400;
+}
+.hmore-b span {
+    font-size: 18px;
+}
+.hnum {
+    
+    /* margin-left: 100px; */
+}
+.mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 110%;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 18px;
+}
+.hmap {
+    height: 400px;
+    padding: 20px 0 20px 60px;
+}
+.hmap .hmap-l {
+    margin:130px 0 100px 132px;
+}
+.video {
+    position: relative;
+    right: 0;
+    width: 725px;
+    height: 421px;
+}
+.hto:hover {
+    font-size: 22px;
+    color: #FF2741;
+}
+.like {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background: url(../img/zlike.png) no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+    margin-top: 2px;
+    
+}

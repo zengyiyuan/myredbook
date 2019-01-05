@@ -1,0 +1,146 @@
+.zboxshadow{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 52px;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.1);
+}
+#zsselect {
+    position: relative;
+}
+a:havor {
+    color: #ccc;
+}
+.zhead .log a{
+    display: block;
+    margin-left: 50px;
+    padding-top:12px; 
+    font-size: 0;
+}
+.zhead .log img {
+    width: 78px;
+    height: 28px;
+}
+.l {
+    float: left;
+}
+.r {
+    float : right;
+}
+.zhead .znav  {
+    width: 900px;
+    height: 50px;
+    margin-left: 40px;
+}
+.zhead .znav a {
+    display: block;
+    height: 50px;
+    padding: 0 35px; 
+    font-size: 14px;
+    line-height: 50px;
+ }   
+ .zhead #zsel {
+     position: absolute;
+    display: none;
+    margin-top: 16px;
+    margin-left: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    text-align: center;
+    border-radius: 4px; 
+    z-index: 100;
+ }
+ #zsel:before {
+     content: '';
+     display: block;
+     width: 8px;
+     height: 8px;
+     margin-top: -6px;
+     margin-left: 48px;
+     background-color: #fff;
+     border: 1px solid #eee;
+     /* 45度角 */
+     transform: rotate(-45deg);
+     border-left: none;
+     border-bottom: none;
+ }
+ #zsel a {
+     display: block;
+    height:20px;
+    line-height: 20px;
+    padding: 0 10px; 
+    margin: 15px  10px;
+    font-size: 16px;
+    color: #555;
+    border-radius: 6px;
+ }
+ /* 尾部css开始 */
+ .zfoot {
+     /* height: 310px; */
+     margin-top: 20px;
+     
+     padding-top: 45px;
+     background-color: #39393b;
+     color: #d1d1d3;
+ }
+ .zfoot h2 img{
+     width: 214px;
+     height: 87px;
+ }
+ .zfoot .weixin {
+     position: relative;
+ }
+ .zfoot #erweima {
+     position: absolute;
+     display: none;
+     left: 0;
+     top: -65px;
+     margin-left: -103px;
+     width: 100px;
+     height: 100px;
+     
+ }
+ .zfoot ul img {
+     margin-top: 12px;
+ }
+ .weixin,
+ .weibo {
+     margin-top: 3px;
+ }
+ .ios {
+     margin-left: 5px;
+ }
+ .zlinks {
+     margin-left: 280px;
+ }
+ .zlinks i {
+     margin-top: 5px;
+ }
+ .zlinks .content,
+ .zlinks .agreement {
+    margin-left: 55px;
+ }
+ .zft_ft {
+     margin-top: 45px;
+     padding-top: 24px;
+     border-top: 1px solid #59595b;
+ }
+ .w1 {
+     width: 1200px;
+     margin: auto;
+ }
+ .zcopyright p{
+    padding-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+ }
+ .zcopyright i{
+     display: inline-block;
+ }
+ .zcopyright i img {
+    width: 15px;
+    height: 15px;
+ }

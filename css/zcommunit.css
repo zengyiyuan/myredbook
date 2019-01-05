@@ -1,0 +1,187 @@
+.zcurent {
+    font-weight: 700;
+    color: red;
+    border-bottom : 2px solid red;
+}
+.znote-tab {
+    position: relative;
+    padding-top: 21px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 47px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+#zranimate {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 68px;
+    height: 3px;
+    background-color: red;
+}
+.znote-tab a {
+    display: inline-block; 
+     width: 68px; 
+     padding: 0 0 6px 0;
+    text-align: center;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.ztbody li {
+     cursor: pointer;
+    position: relative;
+    break-inside: avoid;
+    width: 250px;
+    margin: 0 10px 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ztbody li:hover::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,2,4,0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 0;
+    border-radius: 8px;
+}
+.ztbody  img{
+    width: 250px;
+    vertical-align: middle;
+}
+.ztbody .zsmall {
+    width: 250px;
+    height: 144px;
+}
+.ztbody h3 {
+    color: #000;
+    font-size: 16px;
+    overflow: initial;
+    white-space: initial;
+    font-weight: normal;
+    margin: 13px 15px 11px 15px;
+    line-height: 23px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*设置文本显示两行之后溢出文字隐藏  */
+    -webkit-line-clamp: 2;
+}
+.ztbody p {
+    padding: 0 15px 10px;
+    vertical-align: middle;
+}
+.zicon {
+    display: inline-block;
+}
+.zicon img {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.like {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background: url(../img/zlike.png) no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+    margin-top: 2px;
+    
+}
+.ztbody ul {
+    column-count: 4;
+    column-gap: 0;
+    /* flex-flow: column wrap;
+    width: 100%; 
+    height: 800px; */
+}
+.zdownload {
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    text-align: center;
+}
+.zdownload .zdown_hide {
+    display: none;
+}
+.zdownload span {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+}
+.zdownload .zdown_cute {
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    width: 105px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -220px;
+    background: url(../img/zcutehead.png) no-repeat;
+    background-size:contain; 
+}
+.zdown_app {
+    z-index: 10;
+    position: fixed;
+    /* display: none; */
+    width: 280px;
+    height: 270px;
+    left: 50%;
+    top: 50%;
+    margin-top: -120px;
+    margin-left: -140px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+.zdown_app img {
+    margin: 20px 0;
+    width: 128px;
+}
+.zdown_app p {
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.zdown_app a {
+    cursor: pointer;
+    color: #5b92e1;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+    margin: 15px 0 0 0;
+}
+.zbig {
+    position: fixed;
+    display: none;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+}
+.hide {
+    display: none;
+}
